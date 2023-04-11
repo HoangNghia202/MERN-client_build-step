@@ -29,6 +29,9 @@ const HomePage = () => {
       <div className="w-full h-[5rem]">
         <Navbar />
       </div>
+      <div>
+        <h1 className="">Home page</h1>
+      </div>
       {/* <Button
         onClick={() => {
           handleOpenCloseSnackbar("hellooo");
@@ -37,7 +40,7 @@ const HomePage = () => {
         {" "}
         assss
       </Button> */}
-      <div className="px-[5%] md:px-[6%] grid sm:grid-cols-1 lg:grid-cols-4 md:gap-4 ">
+      {/* <div className="px-[5%] md:px-[6%] grid sm:grid-cols-1 lg:grid-cols-4 md:gap-4 ">
         <div className="hidden lg:block lg:col-span-1">
           <div className="fixed">
             <UserWidget
@@ -69,7 +72,7 @@ const HomePage = () => {
         content={snackbar.content}
         handleOpenCloseSnackbar={handleOpenCloseSnackbar}
         type={snackbar.type}
-      />
+      /> */}
     </>
   );
 };
